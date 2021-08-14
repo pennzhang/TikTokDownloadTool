@@ -13,7 +13,10 @@
     pip install requests
     pip install retrying
 ~~~
-
+```
+姜胡说
+https://v.douyin.com/eofMRCa/
+```
 # 功能
 - [x] 全量下载：下载指定博主主页下所有的无水印视频和图片
 - [x] 增量下载：下载之前下载过全量的博主新更新的内容
