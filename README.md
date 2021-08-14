@@ -1,12 +1,8 @@
 # 版权说明
-本项目fork自[Johnserf-Seed TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload)。目的是为了增加个性化的功能，若想体验更多完善的功能请支持原作者的项目。
+本项目fork自[creatorMao TikTokDownloadTool](https://github.com/creatorMao/TikTokDownloadTool)。目的是为了增加个性化的功能，若想体验更多完善的功能请支持原作者的项目。
 
 # 环境要求
-- 请检查宿主机，是否安装了python环境，并且配置了环境变量
-~~~
-    python --version 
-~~~
-![python环境](./Resource/python.jpg)
+- 请检查宿主机，是否安装了python3环境，并且配置了环境变量
 
 - 请下载以下python库
 ~~~
@@ -76,4 +72,4 @@ python3 autoDownload.py
 - 文件保存在Download文件里，以名称分类
 ![python环境](./Resource/download.jpg)
 
-- 增量下载功能是根据Download文件里有无相同名称的视频来判断的，所以建议不要删除此文件夹里的视频，否则增量下载功能将失效。
+- 已下载视频通过sqlite3数据表记录
